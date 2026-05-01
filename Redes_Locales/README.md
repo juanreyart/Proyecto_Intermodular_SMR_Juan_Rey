@@ -1,31 +1,39 @@
-# Proyecto Intermodular SMR: Galería de Arte Digital
+# Redes Locales - Galería de Arte Digital
 
-Este repositorio centraliza toda la documentación técnica, configuraciones, bases de datos y análisis del proyecto final realizado para el ciclo de **Sistemas Microinformáticos y Redes (SMR)**.
+Bienvenido a la sección de redes de la **Galería de Arte Digital**. En esta carpeta se documenta toda la infraestructura de comunicaciones necesaria para soportar el flujo de contenido multimedia de alta resolución (4K) y la conectividad de los dispositivos de la exposición.
 
-El proyecto **Galería de Arte Digital** consiste en el diseño e implementación de un entorno tecnológico avanzado destinado a la exposición híbrida de arte digital de alta resolución, combinando hardware de alto rendimiento, redes locales estables y gestión de datos eficiente.
+## Índice del contenido
 
----
-
-## 📂 Estructura del Repositorio
-
-El proyecto está organizado modularmente para facilitar la navegación y la revisión de cada área técnica:
-
-* [**Ofimática**](Ofimática/): Documentación descriptiva de la empresa, inventarios de hardware/software y gestión de incidencias.
-* [**Base de Datos**](Base_de_Datos/): Modelado relacional, diagrama Entidad/Relación y scripts SQL de gestión.
-* [**Redes Locales**](Redes_Locales/): Diseño de topología, plan de direccionamiento IP y pruebas de conectividad.
-* [**Montaje y Mantenimiento**](Montaje_y_Mantenimiento/): Especificaciones de hardware, ensamblaje de la estación de trabajo y protocolos de mantenimiento.
-* [**Sistemas Operativos**](Sistemas_Operativos_Monopuesto/): Configuración del entorno, seguridad (BitLocker/Sandbox) y virtualización.
-* [**Itinerario Personal Empleabilidad**](Itinerario_Personal_Empleabilidad/): Reflexión profesional, portfolio personal y objetivos futuros.
+1. [Análisis de necesidades de red](#1-análisis-de-necesidades-de-red)
+2. [Diseño de la red](#2-diseño-de-la-red)
+3. [Plan de direccionamiento IP](#3-plan-de-direccionamiento-ip)
+4. [Servicios de red básicos](#4-servicios-de-red-básicos)
+5. [Pruebas de conectividad y funcionamiento](#5-pruebas-de-conectividad-y-funcionamiento)
 
 ---
 
-## 🛠 Tecnologías y Herramientas
+## 1. Análisis de necesidades de red
+Documentación inicial sobre los requisitos técnicos. Incluye la selección de hardware, tipos de dispositivos (pantallas 4K, estaciones de trabajo, dispositivos móviles) y la infraestructura necesaria para asegurar una transmisión de datos fluida.
 
-* **Hardware:** Estaciones de trabajo de alto rendimiento (i7, 32GB RAM, GPU 16GB) y conectividad Wi-Fi 6.
-* **Redes:** Simulación y diseño lógico mediante **Cisco Packet Tracer**.
-* **Gestión de Datos:** Modelado de bases de datos relacionales.
-* **Ofimática:** Documentación técnica estandarizada y gestión de activos.
-* **Entorno:** Sistema Operativo Windows 11 Pro con políticas de seguridad avanzadas.
+## 2. Diseño de la red
+Esquema de la topología utilizada. Aquí encontrarás los diagramas lógicos y físicos que definen cómo se conectan los equipos de la oficina con la zona de exposición, optimizando la latencia y la estabilidad mediante **Wi-Fi 6**.
+
+## 3. Plan de direccionamiento IP
+Definición de la estructura de red, incluyendo:
+* Rango de direcciones IP asignadas.
+* Configuración del Gateway (Router).
+* Máscaras de subred.
+* Asignación estática/dinámica a los equipos críticos.
+
+## 4. Servicios de red básicos
+Detalle de las funciones implementadas para el correcto funcionamiento de la galería:
+* Compartición de archivos en red.
+* Gestión de usuarios y permisos.
+* Copias de seguridad (Backups) automatizadas.
+* Acceso a Internet y gestión de impresoras.
+
+## 5. Pruebas de conectividad y funcionamiento
+Verificación técnica del entorno. Incluye resultados de pruebas de *ping*, comprobación de enlaces entre la red inalámbrica y el router, y capturas de pantalla que confirman que la comunicación entre los equipos (192.168.1.x) es exitosa y estable.
 
 ---
 
