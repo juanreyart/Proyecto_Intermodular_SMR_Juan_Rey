@@ -1,4 +1,4 @@
-# Ofimática y Gestión Documental - Galería de Arte Digital
+# Ofimática - Galería de Arte Digital
 
 Este repositorio documenta la base administrativa y operativa de la **Galería de Arte Digital**. La ofimática en nuestro proyecto no se limita al uso de software, sino que constituye el pilar para la gestión de activos, el control de incidencias técnicas y la documentación corporativa necesaria para el funcionamiento eficiente de nuestra infraestructura tecnológica.
 
@@ -30,7 +30,8 @@ La operatividad de la galería depende de un control riguroso de sus recursos. A
 
 ---
 
-> *"Una gestión documental sólida es la diferencia entre una infraestructura caótica y un sistema informático profesional, eficiente y escalable."*
+> *"La tecnología es el medio; el diseño y la funcionalidad son el mensaje."*
 
 ---
-*Documentos vinculados al Proyecto Intermodular SMR - 2026*
+*Proyecto Intermodular 1º SMR | Galería de Arte Digital | Juan Antonio Rey Vicente*
+
