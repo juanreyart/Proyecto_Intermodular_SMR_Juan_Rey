@@ -13,7 +13,6 @@ Este repositorio contiene el diseño, la configuración y la documentación téc
 3.  **Plan de Direccionamiento:** Estructuración de la red (IPs, máscaras, gateway) para una gestión eficiente.
 4.  **Servicios de Red:** Implementación de compartición de recursos y protocolos de comunicación.
 5.  **Pruebas de Funcionamiento:** Validación técnica mediante pruebas de conectividad (ping) y simulación.
-6.  **Flujos de Comunicación:** Análisis de la interacción de datos en el día a día operativo de la galería.
 
 ---
 
