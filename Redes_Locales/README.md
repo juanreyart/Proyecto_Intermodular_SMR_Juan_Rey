@@ -1,39 +1,35 @@
-# Redes Locales - Galería de Arte Digital
+# Infraestructura de Redes Locales - Galería de Arte Digital
 
-Bienvenido a la sección de redes de la **Galería de Arte Digital**. En esta carpeta se documenta toda la infraestructura de comunicaciones necesaria para soportar el flujo de contenido multimedia de alta resolución (4K) y la conectividad de los dispositivos de la exposición.
+Este repositorio contiene el diseño, la configuración y la documentación técnica de la red desplegada para soportar la **Galería de Arte Digital**. El objetivo es garantizar una conectividad robusta, de alta densidad y estable, permitiendo la transmisión fluida de contenido multimedia 4K y la gestión eficiente de los dispositivos de exposición.
 
-## Índice del contenido
-
-1. [Análisis de necesidades de red](#1-análisis-de-necesidades-de-red)
-2. [Diseño de la red](#2-diseño-de-la-red)
-3. [Plan de direccionamiento IP](#3-plan-de-direccionamiento-ip)
-4. [Servicios de red básicos](#4-servicios-de-red-básicos)
-5. [Pruebas de conectividad y funcionamiento](#5-pruebas-de-conectividad-y-funcionamiento)
+## Autor
+**Juan Antonio Rey Vicente** | Estudiante de 1º SMR | Vilagarcía de Arousa (Galicia)
 
 ---
 
-## 1. Análisis de necesidades de red
-Documentación inicial sobre los requisitos técnicos. Incluye la selección de hardware, tipos de dispositivos (pantallas 4K, estaciones de trabajo, dispositivos móviles) y la infraestructura necesaria para asegurar una transmisión de datos fluida.
+## Índice del Proyecto
+1.  **Análisis de Necesidades:** Identificación de requisitos técnicos, dispositivos y servicios de red.
+2.  **Diseño de la Red:** Topología lógica y física implementada para optimizar el rendimiento.
+3.  **Plan de Direccionamiento:** Estructuración de la red (IPs, máscaras, gateway) para una gestión eficiente.
+4.  **Servicios de Red:** Implementación de compartición de recursos y protocolos de comunicación.
+5.  **Pruebas de Funcionamiento:** Validación técnica mediante pruebas de conectividad (ping) y simulación.
+6.  **Flujos de Comunicación:** Análisis de la interacción de datos en el día a día operativo de la galería.
 
-## 2. Diseño de la red
-Esquema de la topología utilizada. Aquí encontrarás los diagramas lógicos y físicos que definen cómo se conectan los equipos de la oficina con la zona de exposición, optimizando la latencia y la estabilidad mediante **Wi-Fi 6**.
+---
 
-## 3. Plan de direccionamiento IP
-Definición de la estructura de red, incluyendo:
-* Rango de direcciones IP asignadas.
-* Configuración del Gateway (Router).
-* Máscaras de subred.
-* Asignación estática/dinámica a los equipos críticos.
+## Arquitectura de Red
+La infraestructura ha sido diseñada para superar el desafío de gestionar archivos multimedia de alta carga sin latencia. Se ha priorizado la estabilidad inalámbrica mediante **Wi-Fi 6** en la zona de exposición, eliminando la necesidad de cableado complejo, y una estructura cableada Gigabit para la oficina de gestión.
 
-## 4. Servicios de red básicos
-Detalle de las funciones implementadas para el correcto funcionamiento de la galería:
-* Compartición de archivos en red.
-* Gestión de usuarios y permisos.
-* Copias de seguridad (Backups) automatizadas.
-* Acceso a Internet y gestión de impresoras.
+## Especificaciones Técnicas
+* **Diseño:** Topología lógica centrada en la segmentación de tráfico y alta disponibilidad.
+* **Direccionamiento:** Configuración bajo rango 192.168.1.x, garantizando el orden y la facilidad de administración.
+* **Simulación:** Validación de la red mediante herramientas profesionales (Cisco Packet Tracer).
+* **Conectividad:** Pruebas de *ping* satisfactorias que confirman la comunicación bidireccional entre segmentos de red.
 
-## 5. Pruebas de conectividad y funcionamiento
-Verificación técnica del entorno. Incluye resultados de pruebas de *ping*, comprobación de enlaces entre la red inalámbrica y el router, y capturas de pantalla que confirman que la comunicación entre los equipos (192.168.1.x) es exitosa y estable.
+## Resultados y Validación
+* **Estabilidad:** El diseño garantiza que no existan cuellos de botella durante la carga de obras 4K.
+* **Escalabilidad:** La configuración permite la incorporación de nuevas pantallas digitales sin necesidad de reestructurar la red.
+* **Integridad:** Comunicación verificada entre dispositivos inalámbricos y el router principal.
 
 ---
 
